@@ -18,7 +18,7 @@ body {
     min-height: 100%;
 }
 
-.subsection-h1-1 {
+.section-1 {
     display: flex;
     padding: 0 100px 0 100px;
     height: 50px;   
@@ -37,8 +37,7 @@ ul {
     margin-left: auto;
     display: flex;
     gap: 30px;
-    font-size: 18px;
-    
+    font-size: 18px;    
 }
 
 a {
@@ -52,9 +51,10 @@ a {
 a:hover {
     background-color: #3882f6; 
     padding: 8px; 
+    transition: background-color 0.3s ease;
 }
 
-.subsection-h1-2 {
+.section-2 {
     display: flex;
     padding: 100px;       
     align-items: center;
@@ -93,6 +93,7 @@ button {
 
 button:hover {
     background-color: rgb(38, 160, 160);
+    transition: background-color 0.3s ease;
 }
 
 @media (max-width: 600px) {
@@ -112,7 +113,7 @@ h2 {
     padding: 50px;
 }
 
-.subsection-h2-1 {
+.section-3 {
     background-color: #f9faf8;
     display: flex;
     justify-content: center;
@@ -141,7 +142,7 @@ h2 {
     text-align: center;
 }
 
-.subsection-h2-2 {
+.section-4 {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -161,6 +162,7 @@ blockquote {
 cite {
     margin-left: auto;
     padding: 10px;
+    font-size: 24px;
 }
 
 .h3 {
@@ -170,7 +172,7 @@ cite {
     justify-content: center; 
 }
 
-.subsection-h3 {
+.section-5 {
     display: flex;
     background-color: #3882f6;
     padding: 50px;  
