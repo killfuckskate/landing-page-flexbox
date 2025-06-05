@@ -9,8 +9,7 @@ html, body {
 }
 
 body {
-    font-family:'Times New Roman', Times, serif;   
-     
+    font-family:'Times New Roman', Times, serif;
 }
 
 .h1 {
@@ -163,6 +162,46 @@ cite {
     margin-left: auto;
     padding: 10px;
 }
+
+.h3 {
+    display: flex;
+    background-color: #f9faf8;
+    padding: 100px;
+    justify-content: center; 
+}
+
+.subsection-h3 {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;  
+    border-style: none;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.cta {    
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.cta-text {
+    font-size: 24px;    
+}
+
+.cta-subtext {
+    font-size: 18px;
+}
+
+.h3button {
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+
 
 
 
