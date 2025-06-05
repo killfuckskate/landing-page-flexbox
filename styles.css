@@ -142,5 +142,27 @@ h2 {
     text-align: center;
 }
 
+.subsection-h2-2 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+cite {
+    margin-left: auto;
+    padding: 10px;
+}
+
 
 
